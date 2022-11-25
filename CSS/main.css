@@ -99,6 +99,7 @@ html {
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: 20%;
+    
 }
 .container .card .face .content3 {
     background-image: url("../ressources/images/programmBG.png");
@@ -148,9 +149,11 @@ html {
     body {background-position: 15% 10%;}
     .container .card .face .content2{
         background-image: url("../ressources/images/programmBGaltSize.png");
-    }
+        background-position: 85% 85%;
+        }
     .container .card .face .content3{
         background-image: url("../ressources/images/programmBGaltSize.png");
+        background-position: 85% 85%;
     }
 
     .container{
