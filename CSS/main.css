@@ -123,6 +123,7 @@ html {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-style: normal;
+    
   
 
 }
@@ -211,7 +212,18 @@ html {
         height: 80vh;
         margin: 5vh auto 15vh auto
     }
-    
+    .container .card .center p {
+        font-size: var(--font-size-500);
+    }
+    .container .card .center .handwriting {
+        font-size: var(--font-size-1100);
+    }
+    .container .card .center .handwriting.small{
+        font-size: var(--font-size-800) !important;
+    }
+
+
+
 }
 
 @media screen and(min-width:600px) {
