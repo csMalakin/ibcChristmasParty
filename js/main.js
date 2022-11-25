@@ -23,7 +23,7 @@ console.log("TEST") });
 document.querySelector('#flip2').addEventListener('click', function(){ flipCard(2);
 console.log(Element) });
 document.querySelector('#flip3').addEventListener('click', function(){ flipCard(3); });
-document.querySelector('#flip4').addEventListener('click', function(){ flipCard(4); });
+
 
 
 window.addEventListener("DOMContentLoaded",()=>{

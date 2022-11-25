@@ -85,12 +85,12 @@ html {
             transform: rotateY(180deg);
 }
 .container .card .face .content1 {
-    background-image: url("../ressources/images/invitationBG.png");
+    background-image: url("../ressources/images/programmBG.png");
     
     background-size:60vh;
     background-repeat: repeat;
-    background-position: 0 90%;
-    color: #ffefcb;
+    background-position: 25% 85%;
+    color: black;
     
    
 }
@@ -129,7 +129,10 @@ html {
  .container .center .handwriting{
     font-family: 'Great Vibes', cursive;
     font-size: var(--font-size-1000);
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 1rem 0 1em 0;
+}
+.container .center .homegroup{
+    margin: -1.5rem 0 1rem 0;
 }
 
  .container .center .small {
@@ -174,7 +177,7 @@ html {
     }
     .container .center .smaller{
         font-size: var(--font-size-300);
-        margin-top:-0.3rem
+        margin-top:-0.2rem
     }
     
 }
@@ -183,7 +186,7 @@ html {
     body {background-position: 15% 10%;}
     .container{
         min-width: 45vw;
-        max-width: 55vw;
+        
         height: 80vh;
         margin: 5vh auto 15vh auto
     }
@@ -208,7 +211,7 @@ html {
 }
 .content1 .center{
     padding: 0% 3%;
-    margin-top: 5rem;
+    margin-top: -2rem;
     
     position:absolute;
     top:50%;   
