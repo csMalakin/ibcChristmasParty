@@ -186,8 +186,25 @@ html {
     }
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (min-width:1300px) {
     body {background-position: 15% 10%;}
+    .container .card .face .content2{
+        background-image: url("../ressources/images/programmBG.png");
+        background-position: 95% 28%;
+        background-size: cover;
+        }
+    .container .card .face .content3{
+        background-image: url("../ressources/images/programmBG.png");
+        background-position: 85% 85%;
+        background-size: cover;
+    }
+    .container .card .face .content1 {
+        background-image: url("../ressources/images/programmBG.png");
+        
+        background-size:cover;
+        background-repeat: repeat;
+    }
+
     .container{
         min-width: 45vw;
         
