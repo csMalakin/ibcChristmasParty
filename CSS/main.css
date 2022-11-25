@@ -114,7 +114,7 @@ html {
 }
 .buttons {
     text-align: center;
-    margin: -8vh
+    margin: -14vh
 }
 
 .center p {
@@ -146,6 +146,13 @@ html {
 
 @media screen and (max-width:600px) {
     body {background-position: 15% 10%;}
+    .container .card .face .content2{
+        background-image: url("../ressources/images/programmBGaltSize.png");
+    }
+    .container .card .face .content3{
+        background-image: url("../ressources/images/programmBGaltSize.png");
+    }
+
     .container{
         max-width: 75vw;
         height: 80vh;
@@ -175,7 +182,7 @@ html {
         min-width: 45vw;
         max-width: 55vw;
         height: 80vh;
-        margin: 10vh auto;
+        margin: 5vh auto 15vh auto
     }
     
 }
