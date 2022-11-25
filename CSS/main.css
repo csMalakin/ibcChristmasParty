@@ -221,6 +221,19 @@ html {
     .container .card .center .handwriting.small{
         font-size: var(--font-size-800) !important;
     }
+    .container .card .content2 .normalText, .container .card .content3 .normalText {
+        font-size: var(--font-size-500);
+        padding: 0.5rem;
+        
+    }
+
+    .container .card .content2 .smaller, .container .card .content3 .smaller {
+        font-size: var(--font-size-500);
+        padding: 0.5rem;
+        margin-top: -1rem;
+        
+    }
+
 
 
 
